@@ -129,10 +129,13 @@ def vsixmanifest_data(theme: Any) -> str:
     {f"<Icon>{theme.icon}</Icon>" if theme.icon else ""}
     <Tags>{theme.tags}</Tags>
   </Metadata>
-  <Installation>
-    <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Community" />
-    <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Enterprise" />
-    <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Pro" />
+  <Installation AllUsers="true">
+    <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Community"><ProductArchitecture>amd64</ProductArchitecture></InstallationTarget>
+    <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Community"><ProductArchitecture>arm64</ProductArchitecture></InstallationTarget>
+    <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Enterprise"><ProductArchitecture>amd64</ProductArchitecture></InstallationTarget>
+    <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Enterprise"><ProductArchitecture>arm64</ProductArchitecture></InstallationTarget>
+    <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Pro"><ProductArchitecture>amd64</ProductArchitecture></InstallationTarget>
+    <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Pro"><ProductArchitecture>arm64</ProductArchitecture></InstallationTarget>
   </Installation>
   <Dependencies><Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" Version="[4.5,)" /></Dependencies>
   <Prerequisites><Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="{theme.target_version}" DisplayName="Visual Studio core editor" /></Prerequisites>
