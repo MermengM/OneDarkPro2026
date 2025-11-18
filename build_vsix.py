@@ -129,7 +129,7 @@ def vsixmanifest_data(theme: Any) -> str:
     {f"<Icon>{theme.icon}</Icon>" if theme.icon else ""}
     <Tags>{theme.tags}</Tags>
   </Metadata>
-  <Installation AllUsers="true">
+  <Installation>
     <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Community"><ProductArchitecture>amd64</ProductArchitecture></InstallationTarget>
     <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Community"><ProductArchitecture>arm64</ProductArchitecture></InstallationTarget>
     <InstallationTarget Version="{theme.target_version}" Id="Microsoft.VisualStudio.Enterprise"><ProductArchitecture>amd64</ProductArchitecture></InstallationTarget>
