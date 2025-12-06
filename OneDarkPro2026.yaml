@@ -1,8 +1,8 @@
-Name: One Dark Pro 2026
-Identity: OneDarkPro2026
-Version: 1.0.3
-GUID: 0024020f-bba3-4365-9ea1-63b23313d509
-BaseGUID: 1ded0138-47ce-435e-84ef-9ec1f439b749
+Name: Another One Dark Pro 2026
+Identity: AnotherOneDarkPro2026
+Version: 1.0.1
+GUID: 0024010f-bba3-4365-9ea1-63b23313d509
+BaseGUID: 1ded0138-47c3-435e-84ef-9ec1f439b749
 
 Author: Bayaraa
 Description: A modern Visual Studio 2026 theme inspired by One Dark Pro. Clean contrast, soft accents, and a polished dark UI designed for readability, comfort, and long coding sessions.
@@ -97,21 +97,21 @@ Sections:
     mergeEditor.ConflictMarginIndicator: ["#df2020", null]
     mergeEditor.SelectionBox: ["#94cbf7", null]
     CSS Keyword: [05x00000000, "#c678dd"]
-    CSS Comment: [05x00000000, "#7f848e"]
+    CSS Comment: [05x00000000, "#F28705"]
     CSS Selector: [05x00000000, "#e06c75"]
     CSS Property Name: [05x00000000, "#d19a66"]
     CSS Property Value: [05x00000000, "#bdbdbd"]
     CSS String Value: [05x00000000, "#98c379"]
     HTML Attribute: [05x00000000, "#d19a66"]
     HTML Attribute Value: [05x00000000, "#98c379"]
-    HTML Comment: [05x00000000, "#7f848e"]
+    HTML Comment: [05x00000000, "#F28705"]
     HTML Element Name: [05x00000000, "#e06c75"]
     HTML Entity: [05x00000000, "#e5c07b"]
     HTML Operator: [05x00000000, "#56b6c2"]
     HTML Server-Side Script: ["#ffffb3", "#000000"]
     HTML Tag Delimiter: [05x00000000, "#bbbbbb"]
     VBScript Keyword: [02x00000001, "#bdbdbd"]
-    VBScript Comment: [02x00000001, "#7f848e"]
+    VBScript Comment: [02x00000001, "#F28705"]
     VBScript Operator: [02x00000001, "#56b6c2"]
     VBScript Number: [02x00000001, "#d19a66"]
     VBScript String: [02x00000001, "#98c379"]
@@ -154,17 +154,17 @@ Sections:
     xml doc comment - attribute quotes: [05x00000000, "#bdbdbd"]
     xml doc comment - attribute value: [05x00000000, "#bdbdbd"]
     xml doc comment - cdata section: [05x00000000, "#e9d585"]
-    xml doc comment - comment: [05x00000000, "#7f848e"]
-    xml doc comment - delimiter: [05x00000000, "#7f848e"]
-    xml doc comment - entity reference: [05x00000000, "#7f848e"]
-    xml doc comment - name: [05x00000000, "#7f848e"]
-    xml doc comment - processing instruction: [05x00000000, "#7f848e"]
-    xml doc comment - text: [05x00000000, "#7f848e"]
+    xml doc comment - comment: [05x00000000, "#F28705"]
+    xml doc comment - delimiter: [05x00000000, "#F28705"]
+    xml doc comment - entity reference: [05x00000000, "#F28705"]
+    xml doc comment - name: [05x00000000, "#F28705"]
+    xml doc comment - processing instruction: [05x00000000, "#F28705"]
+    xml doc comment - text: [05x00000000, "#F28705"]
     xml literal - attribute name: [05x00000000, "#bdbdbd"]
     xml literal - attribute quotes: [05x00000000, "#92caf4"]
     xml literal - attribute value: [05x00000000, "#bdbdbd"]
     xml literal - cdata section: [05x00000000, "#e9d585"]
-    xml literal - comment: [05x00000000, "#7f848e"]
+    xml literal - comment: [05x00000000, "#F28705"]
     xml literal - delimiter: [05x00000000, "#89bb82"]
     xml literal - embedded expression: ["#ede0d1", "#717171"]
     xml literal - entity reference: [05x00000000, "#92caf4"]
@@ -1988,12 +1988,12 @@ Sections:
   Text Editor Language Service Items:
     GUID: e0187991-b458-4f7e-8ca9-42c9a573b56c
     Keyword: [05x00000000, "#c678dd"]
-    Comment: [05x00000000, "#7f848e"]
+    Comment: [05x00000000, "#F28705"]
     Identifier: [05x00000000, 05x00000000]
     String: [05x00000000, "#98c379"]
     Number: [05x00000000, "#d19a66"]
     XML CData Section: [05x00000000, "#98c379"]
-    XML Comment: [05x00000000, "#7f848e"]
+    XML Comment: [05x00000000, "#F28705"]
     Memory Changed: [05x00000000, "#d85050"]
     Memory Address: [05x00000000, "#9b9b9b"]
     Memory Unreadable: ["#ede0d1", 02x00000002]
@@ -2010,7 +2010,7 @@ Sections:
     XAML Text: [05x00000000, "#ababab"]
     XAML Keyword: [05x00000000, "#c678dd"]
     XAML Delimiter: [05x00000000, "#bbbbbb"]
-    XAML Comment: [05x00000000, "#7f848e"]
+    XAML Comment: [05x00000000, "#F28705"]
     XAML Name: [05x00000000, "#e6e6e6"]
     XAML Attribute: [05x00000000, "#92caf4"]
     XAML CData Section: [05x00000000, "#c0d088"]
